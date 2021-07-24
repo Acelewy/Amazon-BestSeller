@@ -1,21 +1,29 @@
+import React from 'react'
+import styles from "./mystyle.module.css"; 
 
-export const books = [
-  {
-    id: 1,
-    img: "https://images-na.ssl-images-amazon.com/images/I/91bgFzUdDcL._AC_UL200_SR200,200_.jpg",
-    title: "Welcome to Kindergaton",
-    author: "D.J Steinberg",
-  },
-  {
-    id: 2,
-    img: "https://images-na.ssl-images-amazon.com/images/I/81eB%2B7%2BCkUL._AC_UL200_SR200,200_.jpg",
-    title: "Love you too",
-    author: "Amelia Hepworth",
-  },
-  {
-    id: 3,
-    img: "https://images-na.ssl-images-amazon.com/images/I/71KilybDOoL._AC_UL200_SR200,200_.jpg",
-    title: "The Very Hungry Caterpillar",
-    author: "Eric Carle",
-  },
-];
+const Book = (props) => {
+  const { img, title, author , type} = props;
+  return (
+    <article
+      className="book"
+      onMouseOver={() => {
+        console.log(title);
+      }}>
+      <div className={styles.images}>
+        <img src={img} alt="" />
+      </div>
+      <h3>{title}</h3>
+      <a href="#">
+        <h4>{author}</h4>
+      </a>
+      <h5>{type}</h5>
+        <span className="fa fa-star checked"></span>
+        <span className="fa fa-star checked"></span>
+        <span className="fa fa-star checked"></span>
+        <span className="fa fa-star checked"></span>
+        <span className="fa fa-star"></span>
+    </article>
+  );
+};
+
+export default Book
