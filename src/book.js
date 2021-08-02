@@ -14,7 +14,7 @@ const Book = (props) => {
       </div>
       <div className={styles.desc}>
         <h3>{title}</h3>
-        <a href="#">
+        <a href="//">
           <h4>{author}</h4>
         </a>
         <h5>{type}</h5>
