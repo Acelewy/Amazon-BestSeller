@@ -5,5 +5,19 @@
 }
 
 .images {
-    height: 300px;
+    height: 200px;
+}
+
+.number {
+    width: 31px;
+    height: 30px;
+    padding: 6px;
+    background-color: #C45500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.desc {
+    padding: 10px;
+    padding-left: 30px;
 }

@@ -10,14 +10,15 @@ body {
     line-height: 20px;
     background: #f1f5f8;
     color: #0066c0;
+    font-weight: 100;
 }
 
 .booklist {
     width: 90vw;
-    max-width: 1170px;
+    max-width: 995px;
     margin: 5rem auto;
     display: grid;
-    gap: 2rem;
+    gap: 0rem;
 }
 
 a:link,
@@ -42,9 +43,11 @@ a:active {
 }
 
 .book {
+    width: 332px;
+    height: 370px;
     background: #fff;
-    border-radius: 1rem;
-    padding: 1rem 2rem;
+    border: 1px solid #ddd;
+    font-weight: 100;
 }
 
 .book h3 {
@@ -53,4 +56,12 @@ a:active {
 
 .book p {
     margin-top: 0.5rem;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background: radial-gradient(#0A99AF, #057586);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

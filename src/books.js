@@ -5,6 +5,7 @@ export const books = [
     title: "Welcome to Kindergaton",
     author: "D.J Steinberg",
     type: "Hardcover",
+    number: "#1",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const books = [
     title: "Love you too",
     author: "Amelia Hepworth",
     type: "Paperback",
+    number: "#2",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const books = [
     title: "The Very Hungry Caterpillar",
     author: "Eric Carle",
     type: "Hardcover",
+    number: "#3",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const books = [
     title: "The 48 laws of power",
     author: "Robert Greene",
     type: "Hardcover",
+    number: "#4",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const books = [
     title: "The Midnight Library: A novel",
     author: "Matt Haig",
     type: "Paperback",
+    number: "#5",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const books = [
     title: "Where's Spot",
     author: "Eric Hill",
     type: "Hardcover",
+    number: "#6",
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const books = [
     title: "Billy Summers",
     author: "Stephen King",
     type: "Hardcover",
+    number: "#7",
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export const books = [
     title: "The Last thing he told me: A novel",
     author: "Laura Dave",
     type: "Hardcover",
+    number: "#8",
   },
   {
     id: 9,
@@ -61,5 +69,6 @@ export const books = [
     title: "American Marxism",
     author: "Mark.R.Levin",
     type: "Hardcover",
+    number: "#9",
   },
 ];
